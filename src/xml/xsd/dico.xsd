@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--Aminata-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tux="http://univ-grenoble-alpes.fr/Dembele/Mot"
+           targetNamespace="http://univ-grenoble-alpes.fr/Dembele/Mot"
+           elementFormDefault="qualified">
+    <xs:element name="dictionnaire" type="tux:Dictionnaire" />
+    <xs:complexType name="Dictionnaire"> 
+        <xs:sequence>
+            <xs:element name="mot" type="tux:Name" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Name"> 
+        <xs:simpleContent>
+            <xs:extension base="tux:Mot">
+                <xs:attribute name="niveau" type="tux:Niveau" use ="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>      
+    <xs:simpleType name="Niveau">
+        <xs:restriction base="xs:int">
+            <xs:pattern value="[1-5]"/>
+        </xs:restriction>
+    </xs:simpleType> 
+    <xs:simpleType name="Mot">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="([abcdefghijklmnopqrstvuwxyzéèêàçâûôî-])*"/>
+        </xs:restriction>
+    </xs:simpleType>   
+</xs:schema>

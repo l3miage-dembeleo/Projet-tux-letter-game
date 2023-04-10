@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ns1:dictionnaire
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xmlns:ns1='http://univ-grenoble-alpes.fr/Dembele/Mot'
+    xsi:schemaLocation='http://univ-grenoble-alpes.fr/Dembele/Mot C:\Users\DELL\OneDrive\Bureau\NetBeansProjects_A_Rendre\projet_tux\Data\xsd\dico.xsd'>
+    <ns1:mot niveau="1">Non</ns1:mot>
+    <ns1:mot niveau="1">Lui</ns1:mot>
+    <ns1:mot niveau="1">Oui</ns1:mot>  
+    <ns1:mot niveau="1">Bon</ns1:mot>  
+    
+    <ns1:mot niveau="2">Beau</ns1:mot>    
+    <ns1:mot niveau="2">Rose</ns1:mot>
+    <ns1:mot niveau="2">Salut</ns1:mot>    
+    <ns1:mot niveau="2">Salle</ns1:mot>    
+    <ns1:mot niveau="2">Table</ns1:mot>    
+      
+    <ns1:mot niveau="3">Garçon</ns1:mot>    
+    <ns1:mot niveau="3">Etoile</ns1:mot>
+    <ns1:mot niveau="3">Maigre</ns1:mot>
+    <ns1:mot niveau="3">Echo</ns1:mot>    
+    <ns1:mot niveau="3">Hache</ns1:mot>    
+    
+    <ns1:mot niveau="4">Panneau</ns1:mot>
+    <ns1:mot niveau="4">Ballon</ns1:mot>
+    <ns1:mot niveau="4">Brebis</ns1:mot>
+    <ns1:mot niveau="4">Chasser</ns1:mot>
+    
+    <ns1:mot niveau="5">Pique-nique</ns1:mot>    
+    <ns1:mot niveau="5">Grenoble</ns1:mot>    
+    <ns1:mot niveau="5">Château</ns1:mot>    
+    <ns1:mot niveau="5">Princesse</ns1:mot>
+
+</ns1:dictionnaire>
+
